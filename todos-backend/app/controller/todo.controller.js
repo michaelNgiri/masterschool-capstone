@@ -3,7 +3,6 @@ const Todo = db.todos;
 const Op = db.Sequelize.Op;
 
 exports.createTodo = (req, res) => {
-  console.log("body ooh");
   if (!req.body.title) {
     res.status(400).send({
       message: "Content can not be empty!",

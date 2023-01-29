@@ -1,4 +1,3 @@
-const { Router } = require("express");
 const controller = require("../controller/todo.controller");
 const { authJwt } = require("../middleware");
 

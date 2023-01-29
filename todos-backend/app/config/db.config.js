@@ -2,6 +2,7 @@
 //   HOST: "localhost",
 //   USER: "postgres",
 //   PASSWORD: "postgres",
+//   // DB: process.env.NODE_ENV === "test" ? "todos-test" : "todos",
 //   DB: "todos",
 //   dialect: "postgres",
 //   pool: {
@@ -25,3 +26,4 @@ module.exports = {
     idle: 10000,
   },
 };
+
