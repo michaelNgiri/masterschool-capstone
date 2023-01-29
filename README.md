@@ -6,7 +6,8 @@
 
 # HOW TO RUN THE APPLICATION:
 
-```There are 2 sub projects here:
+```
+    There are 2 sub projects here:
     Frontend: todos-frontend
     Backend: todos-backend
 ```
@@ -25,7 +26,8 @@
 
 ## Test login info:
 
-```username: alveis
+```
+    username: alveis
     email: michaelngiri@gmail.com
     password: password3
 ```
